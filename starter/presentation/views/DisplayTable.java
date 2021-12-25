@@ -15,7 +15,7 @@ import starter.presentation.model.TableModelManager;
 
 public class DisplayTable extends JFrame {
 	
-	private static final long serialVersionUID = -9072590340643165251L;
+	// private static final long serialVersionUID = -9072590340643165251L;
 	private JButton back,add,edit,del;
 	private JTextField search;
 	// private ControleurGestionUser controleur;
@@ -31,6 +31,7 @@ public class DisplayTable extends JFrame {
 		setLocationRelativeTo(null);
 		setResizable(false);
 		this.model = model;
+		this.setVisible(true);
 		
 		init();
 		draw();

@@ -16,7 +16,6 @@ public class ControllerUser extends ControllerManager<User, Integer> {
 
 	public ControllerUser() {
 		super(displayTableUser);
-		//TODO Auto-generated constructor stub
 	}
 	
 }
