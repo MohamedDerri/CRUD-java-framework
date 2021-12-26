@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import starter.persistance.DatabaseConnection;
+import starter.presentation.controller.ControllerUser;
 
 public class Main {
 	public static void main(String[] args) {
@@ -38,7 +39,7 @@ public class Main {
 			e.printStackTrace();
 		}
 
-		// new ControllerUser().getDisplayTable(); //replace it with your enity
+		new ControllerUser().getDisplayTable();
 	}
 	
 }
